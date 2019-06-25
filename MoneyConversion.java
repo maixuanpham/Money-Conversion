@@ -1,9 +1,9 @@
-/*  Program:			Eclipse
-    Author:			Mai Pham	
-    Class:			CSCI 145
-    Date:			09/21/2017
-    Description:		Project 1 - Part A: Money Conversion
-    I certify that the code below is my own work.
+/*  	Program:		Eclipse
+    	Author:			Mai Pham	
+    	Class:			CSCI 145
+    	Date:			09/21/2017
+    	Description:		Project 1 (Part A): Money Conversion
+    	I certify that the code below is my own work.
 	Exception(s): N/A
 */
 import java.util.*;
@@ -49,9 +49,9 @@ public class MoneyConversion
 		remainder = remainder % 1;
 		
 		System.out.println("\t" + twenty + " twenty-dollar bills\n\t" + ten + " ten-dollar bills\n\t"
-								+ five + " five-dollar bills\n\t" + one + " one-dollar bills\n\t" 
-								+ quarter + " quarters\n\t" + dime + " dimes\n\t" 
-								+ nickel + " nickels\n\t" + penny + " pennies\n");
+					+ five + " five-dollar bills\n\t" + one + " one-dollar bills\n\t" 
+					+ quarter + " quarters\n\t" + dime + " dimes\n\t" 
+					+ nickel + " nickels\n\t" + penny + " pennies\n");
 		
 		total = (twenty*2000)+(ten*1000)+(five*500)+(one*100)+(quarter*25)+(dime*10)+(nickel*5)+(penny*1);
 		total/=100;
